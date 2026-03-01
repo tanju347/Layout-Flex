@@ -1,3 +1,49 @@
 body {
-    font-size: 15pt;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo { width: 100px; }
+
+/* Hero Section */
+.hero-section {
+    background-color: #fce4ec; /* হালকা গোলাপি ব্যাকগ্রাউন্ড */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.hero-text { width: 50%; }
+
+.hero-text h1 { font-size: 36px; color: #212121; }
+
+.price { color: #ff4081; font-size: 28px; }
+
+.buy-now {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-image img { width: 100%; max-width: 400px; }
